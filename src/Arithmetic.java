@@ -10,6 +10,7 @@ public class Arithmetic {
         System.out.println("이삼사");
         System.out.println("그는 \"사랑이라고 말했다\" ");
         PackPackageTest.app();
+        VariablesAndTypes.app();
         
     }
 }
