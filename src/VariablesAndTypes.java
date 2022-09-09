@@ -10,6 +10,29 @@ public class VariablesAndTypes {
     public static void app(){
         System.out.println(s3);
     }
+    int num = 5;
+    String s = "I have " + num + " cookies";
+
+    boolean b = false;
+    b = true;
+
+    boolean toBe = false;
+    b = toBe || !toBe;
+    if(b){
+        System.out.println(toBe);
+    }
+
+    int children = 0;
+    b = children;
+    if (children){
+
+    }
+
+    int a;
+    b = true;
+    c = false;
+    a = b + c;
+    Ststem.out.println(a);
 }
 //byte  =   number, 1 byte
 //short =   number, 2 bytes
