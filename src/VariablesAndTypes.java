@@ -10,7 +10,7 @@ public class VariablesAndTypes {
     public static void app(){
         System.out.println(s3);
     }
-    int num = 5;
+    /*int num = 5;
     String s = "I have " + num + " cookies";
 
     boolean b = false;
@@ -33,6 +33,7 @@ public class VariablesAndTypes {
     c = false;
     a = b + c;
     Ststem.out.println(a);
+    */
 }
 //byte  =   number, 1 byte
 //short =   number, 2 bytes
