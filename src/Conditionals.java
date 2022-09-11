@@ -7,4 +7,11 @@ public class Conditionals{
             System.out.println("It's true");
         }
     }
+    public static void Condi2(){
+        int a = 4;
+        
+        if (a == 4){
+            System.out.println("Ohhh! S a is 4!");
+        }
+    }
 }
