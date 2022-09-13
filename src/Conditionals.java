@@ -1,4 +1,5 @@
 public class Conditionals{
+    
     public static void Condi(){
         int a = 4;
         boolean b = a ==4;
@@ -27,5 +28,21 @@ public class Conditionals{
         result = a > b || a < b; // Logical or - true
         result = 3 < a && a < 6; // Logical and - true
         result = !result; // Logical not - false
+    }
+    public static void ifElse(){
+        int a = 10;
+        int b = 10;
+        if (a==b){
+            // a and b are equal, let's do something cool
+        }
+        if (a == b){
+            //we already know this part
+        }else{
+            // a and b are not equal... :/
+        }
+        if (a==b)
+            System.out.println("Another line Wow!");
+        else
+            System.out.println("Double rainbow!");
     }
 }
