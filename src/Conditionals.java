@@ -45,4 +45,18 @@ public class Conditionals{
         else
             System.out.println("Double rainbow!");
     }
+    public static void theUglySideOfIt(){
+        int a =4;
+        int result = a == 4 ? 1 : 8;
+
+        // result will be 1
+        // This is equivalent to
+        int result;
+
+        if (a==4){
+            result = 1;
+        }else{
+            result = 8;
+        }
+    }
 }
