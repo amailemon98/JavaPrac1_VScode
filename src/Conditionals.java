@@ -47,7 +47,7 @@ public class Conditionals{
     }
     public static void theUglySideOfIt(){
         int a =4;
-        int result = a == 4 ? 1 : 8;
+        //int result = a == 4 ? 1 : 8;
 
         // result will be 1
         // This is equivalent to
@@ -58,5 +58,14 @@ public class Conditionals{
         }else{
             result = 8;
         }
+    }
+    public static void andEquals(){
+        String a = new String("Wow");
+        String b = new String("Wow");
+        String sameA = a;
+
+        boolean r1 = a ==b;     //This is false, since a and b are not the same object
+        boolean r2 = a.equals(b); //This is true, since a and b are logically equals
+        boolean r3 = a == sameA;  //This is true, sins a and sameA are really the same object
     }
 }
