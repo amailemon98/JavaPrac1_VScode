@@ -16,6 +16,28 @@ public class Loops {
         //i++       i is now 3
         //i < 3     3 < 3 = false
         //          Loop is done...
+        //for(;i<5;){} //you can omit the first and third section of the loop
     }
-    
+    public static void _While(){
+        //while(condition){}
+
+        //do{
+        //}    while(condition);
+
+    }
+    public static void _Foreach(){
+        
+        int[] arr = {2, 0, 1, 3};
+        for (int el : arr) {
+            System.out.println(el);
+        }
+    }// This is short version and equivalent to:
+    public static void _Foreach2(){
+        
+        int[] arr = {1, 9, 9, 5};
+        for(int i = 0; i < arr.length; i++){
+            int el = arr[i];
+            System.out.println(el);
+        }
+    }
 }
