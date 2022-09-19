@@ -40,4 +40,14 @@ public class Loops {
             System.out.println(el);
         }
     }
+    public static void _Break(){
+        int i;
+        for (i = 0; i< 5; i++){
+            if(i>=2){
+                break;
+            }
+            System.out.println("Yuhu");
+        }
+        System.out.println(i);
+    }
 }
