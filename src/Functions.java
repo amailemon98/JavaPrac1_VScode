@@ -20,5 +20,20 @@ public class Functions {
         s1.setName("Chuck"); //joe name is now Chuck as well
         s1 = new Student("Norris"); //s1 is a new student, different than joe with the name of Norris
         // s1 == joe is not true anymore.
+    }*//*
+    public void NonStaticMethods(){
+       private String name;
+       public String getName(){
+        return name;
+       } 
+       public void setName(String name){
+        this.name = name;
+       }
+       Student s = new Student();
+       s.setName("Danielle");
+       String name = s.getName();
+
+       Student.setName("Bob"); //Will not work!
+       Student.getName(); //Will not work!
     }*/
 }
