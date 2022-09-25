@@ -31,3 +31,17 @@ class Point2{
         this.y = y;
     }
 }
+
+p.x = 3;
+p.y = 6;
+
+
+class Point{
+    void printPoint(){
+        System.out.println("("+x+","+y+")");
+    }
+
+    Point center(Point other){
+        return new Point((x + other.x)/2, (y+other.y)/2);
+    }
+}
