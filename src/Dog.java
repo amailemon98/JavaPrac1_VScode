@@ -1,4 +1,4 @@
-public class Dog {
+class Dog implements Animal {
     boolean feed(boolean timeToEat){
         //pour food into bowl
         return true;
